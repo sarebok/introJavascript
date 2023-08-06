@@ -11,18 +11,19 @@
       <div class="card-js">
         <div class="card-img"></div>
         <div class="card-content">
-          <p>price: <span>300000</span></p>
-          <p>quantity: <span></span></p>
-          <input type="number" />
-          <p>color: <span></span></p>
-          <input type="color" />
+          <p>price: <span id="product-price">300000</span></p>
+          <label for="intput-product-quantity">Quantity:</label>
+          <input type="number" id="intput-product-quantity" />
+          <label for="input-color">Color: </label>
+          <input type="color" id="input-color" />
         </div>
+        <button>Buy</button>
       </div>
     </div>
     <div class="calculations-container">
-      <p>total price: <span></span></p>
-      <p>total quantity: <span></span></p>
-      <p>selected color: <span></span></p>
+      <p>total price: <span id="calculated-total-price"></span></p>
+      <p>total quantity: <span id="calculated-quantity"></span></p>
+      <p>selected color: <span id="selected-color"></span></p>
     </div>
     <script src="./assets/js/script.js"></script>
   </body>
