@@ -1,0 +1,9 @@
+.card-js,
+.card-img,
+.card-content {
+  border: 1px solid black;
+}
+
+.card-content {
+  color: black;
+}
