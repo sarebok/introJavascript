@@ -19,9 +19,11 @@ function calculate() {
 
   const calculatedQuantity = document.querySelector("#calculated-quantity");
   calculatedQuantity.innerHTML = a;
+
+  //cambiar color del borde de la card (me parecio mas interesante que hacer la bolita con border radius 50% po profe no me mateee)
   const cardManip = document.querySelector("#card-js");
   cardManip.style.borderColor = inputColor.value;
-  //incluir el color en texto
+  //cambia color del texto del color
   const selectedColor = document.querySelector("#selected-color");
   selectedColor.innerHTML = inputColor.value;
   selectedColor.style.color = inputColor.value;
